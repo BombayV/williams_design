@@ -34,11 +34,11 @@ Organize links to all student pages in this README so the instructor can find ev
 ```
 ## Team Pages
 
-### Student A (Name)
+### Student A (Mauricio Rivera)
 - Topic: Archetype — docs/archetype.md
 - Competitor: Starbucks — docs/competitors/starbucks.md
 
-### Student B (Name)
+### Student B (Niamh McGowan)
 - Topic: Persuasion — docs/persuasion.md
 - Competitor: Dunkin — docs/competitors/dunkin.md
 
