@@ -42,7 +42,7 @@ Organize links to all student pages in this README so the instructor can find ev
 - Topic: Persuasion — docs/persuasion.md
 - Competitor: Dunkin — docs/competitors/dunkin.md
 
-### Student C (Name)
+### Student C (Daniel Park)
 - Topic: Sales Funnel — docs/sales-funnel.md
 - Competitor: Blue Bottle — docs/competitors/blue-bottle.md
 ```
@@ -75,15 +75,15 @@ Team Pages (Fill me in!)
 ```
 ## Team Pages
 
-### Student A (Name)
+### Student A (Mauricio Rivera)
 - Topic: (link)
 - Competitor: (link)
 
-### Student B (Name)
+### Student B (Niamh McGowan)
 - Topic: (link)
 - Competitor: (link)
 
-### Student C (Name)
+### Student C (Daniel Park)
 - Topic: (link)
 - Competitor: (link)
 ```
