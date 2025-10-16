@@ -8,15 +8,15 @@ In this project, a team of 2–3 students will learn how brands use psychology, 
 
 ### Student A (Mauricio Rivera)
 - [Archetype](docs/archetype.md)
-- Competitor: (link)
+- [Adidas](docs/adidas.md)
 
 ### Student B (Niamh McGowan)
 - [Persuasion](docs/persuasion.md)
-- Competitor: (link)
+- [Nike](docs/nike.md)
 
 ### Student C (Daniel Park)
 - [Sales Funnel](docs/sales-funnel.md)
-- Competitor: (link)
+- [Puma](docs/puma.md)
 ```
 
 ---
