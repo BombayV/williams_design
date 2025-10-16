@@ -20,4 +20,3 @@ We worked on clothing brands and decided to choose the champion archetype. We wa
 ### Student C (Daniel Park)
 - [Sales Funnel](docs/sales-funnel.md)
 - [Puma](docs/puma.md)
-```
