@@ -1,4 +1,4 @@
-# Competitor Analysis: [BRAND NAME]
+# Competitor Analysis: Nike
 
 Quick navigation:
 - Home: [README](../../README.md)
