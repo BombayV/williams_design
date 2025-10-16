@@ -4,87 +4,18 @@
 
 In this project, a team of 2–3 students will learn how brands use psychology, design, and storytelling to connect with people, and how to use GitHub to collaborate like real designers and developers.
 
----
-
-Quick navigation:
-- Student guide: [STUDENT-GUIDE-SIMPLIFIED.md](STUDENT-GUIDE-SIMPLIFIED.md)
-- Research templates:
-  - Archetype: [docs/archetype.md](docs/archetype.md)
-  - Persuasion: [docs/persuasion.md](docs/persuasion.md)
-  - Sales funnel: [docs/sales-funnel.md](docs/sales-funnel.md)
-  - Competitor template: [docs/competitors/competitor-template.md](docs/competitors/competitor-template.md)
-- Optional deep dives:
-  - Chapter 1 – Persuasion Psychology: [textbook-format/chapter1-persuasion-psychology.md](textbook-format/chapter1-persuasion-psychology.md)
-  - Chapter 2 – Brand Archetypes: [textbook-format/chapter2-brand-archetypes.md](textbook-format/chapter2-brand-archetypes.md)
-  - Chapter 3 – Sales Funnels: [textbook-format/chapter3-sales-funnels.md](textbook-format/chapter3-sales-funnels.md)
-  - Chapter 4 – Competitive Analysis & SWOT: [textbook-format/chapter4-competitive-analysis.md](textbook-format/chapter4-competitive-analysis.md)
-  - Chapter 5 – Homepage Hero Section: [textbook-format/chapter5-homepage-hero.md](textbook-format/chapter5-homepage-hero.md)
-
----
-
-## Team collaboration and deliverables
-
-For teams of 2–3 students using your OWN team repository (do not commit to the instructor’s repo):
-- Each student completes TWO pages total:
-  1) ONE topic research page: choose exactly one of Archetype, Persuasion, or Sales Funnel and complete the template under `docs/`
-  2) ONE competitor analysis page: copy `docs/competitors/competitor-template.md` and rename it for your competitor (for example, `docs/competitors/starbucks.md`)
-
-Organize links to all student pages in this README so the instructor can find everything quickly. Example:
-
-```
 ## Team Pages
 
 ### Student A (Mauricio Rivera)
-- Topic: Archetype — docs/archetype.md
-- Competitor: Starbucks — docs/competitors/starbucks.md
-
-### Student B (Niamh McGowan)
-- Topic: Persuasion — docs/persuasion.md
-- Competitor: Dunkin — docs/competitors/dunkin.md
-
-### Student C (Daniel Park)
-- Topic: Sales Funnel — docs/sales-funnel.md
-- Competitor: Blue Bottle — docs/competitors/blue-bottle.md
-```
-
-Recommended workflow to minimize merge conflicts:
-- Step 1 (repo owner): Create your OWN team repository and add the empty files everyone will need:
-  - `docs/archetype.md`, `docs/persuasion.md`, `docs/sales-funnel.md`
-  - One competitor file per teammate (e.g., `docs/competitors/student-a.md`, `docs/competitors/student-b.md`) or use actual competitor names if known
-- Step 2: Push to GitHub.
-- Step 3: Collaboration options:
-  - Option A (simpler): Add teammates as collaborators to the same repo. Each student creates a branch and opens PRs in this repo.
-  - Option B (more advanced): Each student forks the team repo. Work in your fork and open PRs back to the team repo.
-- Step 4: Each student edits only their two assigned pages and opens a Pull Request.
-- Step 5: After review, merge PRs to main and update the README “Team Pages” section with links to the final filenames.
-
-Naming guidance for competitor files:
-- Final naming: `docs/competitors/<brand-name>.md` (e.g., `docs/competitors/starbucks.md`)
-- If the brand isn’t chosen yet: temporarily use `docs/competitors/<student-name>.md`, then rename when finalized and update the README link.
-
-Submission:
-- Submit your team GitHub repository URL on Canvas. Ensure this README links to all research and competitor pages for each teammate.
-
-Definition of Done (check before submitting):
-- [ ] Each student completed 2 pages (1 topic + 1 competitor)
-- [ ] README has a “Team Pages” section with working links to every student’s two pages
-- [ ] All PRs reviewed and merged to main
-- [ ] Repo URL submitted on Canvas
-
-Team Pages (Fill me in!)
-```
-## Team Pages
-
-### Student A (Mauricio Rivera)
-- Topic: (link)
+- [Archetype](docs/archetype.md)
 - Competitor: (link)
 
 ### Student B (Niamh McGowan)
-- Topic: (link)
+- [Persuasion](docs/persuasion.md)
 - Competitor: (link)
 
 ### Student C (Daniel Park)
-- Topic: (link)
+- [Sales Funnel](docs/sales-funnel.md)
 - Competitor: (link)
 ```
 

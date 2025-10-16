@@ -1,191 +1,156 @@
 # Brand Archetype Research
 
-Quick navigation:
-- Home: [README](../README.md)
-- Student guide: [STUDENT-GUIDE-SIMPLIFIED.md](../STUDENT-GUIDE-SIMPLIFIED.md)
-- Other templates: [Persuasion](persuasion.md) • [Sales funnel](sales-funnel.md)
-- Competitor template: [competitors/competitor-template.md](competitors/competitor-template.md)
-
-<!-- 
-👤 YOUR ROLE: Archetype Researcher
-📁 FILE: /docs/archetype.md
-
-QUICK START:
-1. Read about the 12 brand archetypes (see main README or search "Jung brand archetypes")
-2. Choose ONE archetype that fits your team's business category
-3. Research that archetype's characteristics
-4. Find 3 real brand examples
-5. Explain how YOUR business should use this archetype
-
-Need help? Check the STUDENT-GUIDE-SIMPLIFIED.md file!
--->
-
-## Chosen Archetype: [INSERT ARCHETYPE NAME HERE]
+## Chosen Archetype: Hero / Champion
 
 ### Definition and Core Traits
-<!-- 
-Explain what this archetype represents and its key personality characteristics.
-Example: "The Explorer archetype represents freedom, discovery, and authenticity..."
--->
+The Hero (also called Champion) archetype centers on mastery, courage, and measurable achievement. Hero brands motivate customers to challenge themselves, train harder, and prove their capability through athletic performance and progress.
 
-**Core Motivation:** [What drives this archetype?]
+**Core Motivation:** Prove worth through courageous action and tangible improvement.
 
 **Key Personality Traits:**
-- [Trait 1]
-- [Trait 2] 
-- [Trait 3]
+- Determined — relentless focus on goals and improvement
+- Confident — clear, assertive communication and bold claims backed by evidence
+- Disciplined — values training, routine, and measurable progress
 
-**Target Audience:** [Who is attracted to this archetype?]
+**Target Audience:** Athletes, fitness enthusiasts, and active consumers who prioritize performance, progress tracking, and high-quality technical apparel.
 
 ---
 
 ## Visual Identity Guidelines
 
 ### Color Palette
-<!-- 
-Research typical colors for your archetype. Include both primary and secondary colors.
-You can use color names or hex codes.
--->
+Hero brands use bold, high-contrast palettes that read as energetic and serious.
 
 **Primary Colors:**
-- [Color 1] - [Why this color fits the archetype]
-- [Color 2] - [Why this color fits the archetype]
+- #E63946 (Performance Red) — energy, urgency, competition
+- #0A0A0A (Near Black) — strength, seriousness, premium feel
 
-**Secondary/Accent Colors:**
-- [Color 3]
-- [Color 4]
+**Secondary / Accent Colors:**
+- #FFFFFF (White) — clarity and legibility
+- #1D3557 (Deep Navy) — trust, depth; useful for secondary surfaces and data visualizations
+
+Use high contrast for CTAs and hero headlines. Reserve bright accents for performance cues (badges, metrics, progress states).
 
 ### Typography Style
-<!-- 
-What kind of fonts match your archetype's personality?
-Examples: Modern sans-serif, classic serif, handwritten, bold display fonts
--->
+Headlines should be compact and strong; body copy should be neutral and highly readable.
 
 **Recommended Font Types:**
-- Primary: [Font style/example] - [Why it fits]
-- Secondary: [Font style/example] - [Why it fits]
+- Primary (display): Condensed / strong sans-serif (Bebas Neue, Oswald, or Montserrat Alternates) — impactful headlines and hero text
+- Secondary (body): Neutral sans-serif (Inter, Roboto, or Helvetica Neue) — readable UI and product pages
 
-**Font Examples:**
-- [Specific font name 1]
-- [Specific font name 2]
+**Font Use:**
+- Headlines: bold/condensed for urgency and presence
+- Subheads: semi-bold for emphasis
+- Body: regular for clarity; use slightly increased letter-spacing on small caps and numeric data
 
 ### Imagery and Visual Style
-<!-- 
-What kinds of photos, illustrations, or graphics work well?
-Think about composition, mood, subjects, and overall feel.
--->
 
 **Typical Imagery:**
-- [Image type 1] - [Description]
-- [Image type 2] - [Description]
-- [Image type 3] - [Description]
+- Action photography: athletes in motion, mid-effort expressions, and dynamic angles
+- Close-ups of product details and materials (stitched seams, breathable mesh, sole treads)
+- Training context: gyms, tracks, courts, and outdoor runs that show measurable effort
 
-**Visual Mood:** [Describe the overall feeling/atmosphere]
+**Visual Mood:** Gritty, focused, aspirational — images should feel earned rather than polished glamour shots.
 
-**Symbols/Icons:** [Any recurring symbols or visual elements]
+**Symbols / Icons:** Minimal and angular: chevrons, badges, metrics/leaderboard icons, progress rings.
 
 ---
 
 ## Brand Voice and Messaging
 
 ### Tone of Voice
-<!-- 
-How does this archetype "speak" to customers?
-Examples: Friendly and approachable, sophisticated and premium, bold and adventurous
--->
+Direct, motivating, and evidence-driven. The Hero voice encourages action and emphasizes results.
 
-**Overall Tone:** [Describe the communication style]
+**Overall Tone:** Concise, authoritative, and supportive — like a coach who expects effort and celebrates progress.
 
 **Key Messaging Themes:**
-- [Theme 1]
-- [Theme 2]
-- [Theme 3]
+- Training and improvement (progress over time)
+- Performance and technology (materials, data, testing)
+- Achievement and milestones (PRs, race finishes, match wins)
 
 ### Sample Vocabulary
-<!-- 
-What specific words or phrases would this archetype use in marketing?
-Think about headlines, product descriptions, calls-to-action.
--->
+Use verbs and short, energetic phrases.
 
 **Power Words:**
-- [Word 1]
-- [Word 2]
-- [Word 3]
-- [Word 4]
+- Train
+- Perform
+- Dominate
+- Proven
+- Push
+- PR (Personal Record)
 
 **Sample Headlines:**
-- "[Example headline 1]"
-- "[Example headline 2]"
+- "Train Harder. Perform Better."
+- "Built to Push Limits"
+- "Proven Technology. Real Results."
 
 ---
 
 ## Real Brand Examples
 
-### Example 1: [Brand Name]
-**Website:** [URL if available]
+### Example 1: Nike
+**Website:** https://www.nike.com
 
 **How they use this archetype:**
-- [Specific example 1]
-- [Specific example 2]
-- [Specific example 3]
+- Athlete-focused storytelling that connects products to achievement (campaigns like "Just Do It")
+- Bold hero imagery, performance narratives, and athlete endorsements
 
-### Example 2: [Brand Name]
-**Website:** [URL if available]
-
-**How they use this archetype:**
-- [Specific example 1]
-- [Specific example 2]
-- [Specific example 3]
-
-### Example 3: [Brand Name] (Optional)
-**Website:** [URL if available]
+### Example 2: Adidas
+**Website:** https://www.adidas.com
 
 **How they use this archetype:**
-- [Specific example 1]
-- [Specific example 2]
+- Mixes performance messaging with design credibility; showcases tech (Boost, Primeknit) and athlete partnerships
+
+### Example 3: Under Armour / Puma
+**Website:** https://www.underarmour.com (Under Armour) / https://www.puma.com (Puma)
+
+**How they use this archetype:**
+- Training-first messaging, technology callouts, and product specs that support athletic goals
 
 ---
 
 ## Application to Our Business Category
 
 ### Why This Archetype Fits
-<!-- 
-Explain why you chose this archetype for your team's business category.
-Connect it to your target audience and business goals.
--->
+For a clothing brand competing with Nike, Adidas, and Puma, the Hero archetype gives a clear, defensible position: performance-first apparel for people who measure results. Rather than competing solely on style or price, this positioning emphasizes technology, testing, and athlete outcomes; areas where a smaller brand can differentiate through credible data, focused community programs, and authentic athlete partnerships.
 
-[Your reasoning here - 2-3 paragraphs]
+This archetype aligns with shoppers who buy training gear to improve: they respond to measurable claims, product tests, and stories about progress rather than generic lifestyle imagery.
 
 ### Implementation Ideas
-<!-- 
-How could a business in your category use this archetype?
-Think about website design, marketing messages, product presentation.
--->
 
 **Website Design Ideas:**
-- [Idea 1]
-- [Idea 2]
-- [Idea 3]
+- Hero section: full-bleed action image + short performance claim and a primary CTA (call to action)
+- Technology pages: dedicated sections that explain materials, tests, and metrics (e.g., breathability, weight, durability)
+- Product detail pages: include performance benchmarks, recommended use-cases, and athlete testimonials
+- Community / training hub: challenges, leaderboards, and user-submitted PR stories to build social proof and retention
 
 **Marketing Message Ideas:**
-- [Message 1]
-- [Message 2]
+- Campaigns focused on PRs, time trials, and training milestones (e.g., "Beat Your Best")
+- Short-form video that shows training improvements and product benefits in action
 
-**Product/Service Presentation:**
-- [How to present offerings using this archetype]
+**Product / Service Presentation:**
+- Emphasize specs and comparisons (e.g., fabric weight, moisture-wicking rating, durability cycles)
+- Offer training plans and performance guarantees to reduce purchase friction
+
+---
+
+## Sample Content / Microcopy
+
+Hero headline: "Gear Built to Push Limits"
+
+Product blurbs:
+- "Lightweight compression designed for fast recovery and high-intensity training."
+- "Tested by athletes — proven in the field."
+
+CTA examples:
+- "Shop Performance"
+- "See Tech Specs"
 
 ---
 
 ## Research Sources
-<!-- 
-List your sources - websites, articles, books, etc.
-This shows your research process and helps teammates verify information.
--->
-
-1. [Source 1 - Title and URL]
-2. [Source 2 - Title and URL]
-3. [Source 3 - Title and URL]
+1. Mark & Pearson — The Hero archetype in branding (The Hero and the Outlaw book)
+2. Company product pages and tech explainer pages: Nike, Adidas, Under Armour
+3. Articles on brand archetypes and marketing psychology (various academic and industry sources)
 
 ---
-
-*💡 Remember: Your archetype research should connect with your teammates' work on persuasion techniques and sales funnels. Think about how this personality would influence the entire customer experience!*
