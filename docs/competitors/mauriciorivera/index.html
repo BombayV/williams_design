@@ -1,0 +1,474 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Champion - Empowering Athletes Through Performance Wear</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        body {
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            line-height: 1.6;
+            color: #333;
+        }
+
+        /* Navigation */
+        nav {
+            background-color: #000;
+            padding: 1rem 2rem;
+            position: sticky;
+            top: 0;
+            z-index: 100;
+            box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+        }
+
+        nav ul {
+            list-style: none;
+            display: flex;
+            justify-content: center;
+            gap: 2rem;
+            flex-wrap: wrap;
+        }
+
+        nav a {
+            color: #fff;
+            text-decoration: none;
+            font-weight: 500;
+            transition: color 0.3s ease;
+        }
+
+        nav a:hover {
+            color: #ffd700;
+        }
+
+        /* Hero Section */
+        .hero {
+            background: linear-gradient(135deg, #1a1a1a 0%, #333 100%);
+            color: #fff;
+            padding: 6rem 2rem;
+            text-align: center;
+            min-height: 500px;
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+        }
+
+        .hero h1 {
+            font-size: 3.5rem;
+            margin-bottom: 1rem;
+            text-transform: uppercase;
+            letter-spacing: 2px;
+        }
+
+        .hero p {
+            font-size: 1.3rem;
+            margin-bottom: 2rem;
+            max-width: 700px;
+            line-height: 1.8;
+        }
+
+        .cta-button {
+            background-color: #ffd700;
+            color: #000;
+            padding: 1rem 2.5rem;
+            font-size: 1.1rem;
+            border: none;
+            border-radius: 5px;
+            cursor: pointer;
+            font-weight: 700;
+            transition: background-color 0.3s ease, transform 0.2s ease;
+            text-decoration: none;
+            display: inline-block;
+        }
+
+        .cta-button:hover {
+            background-color: #ffed4e;
+            transform: translateY(-2px);
+        }
+
+        /* Container */
+        .container {
+            max-width: 1200px;
+            margin: 0 auto;
+            padding: 2rem;
+        }
+
+        /* Section Styling */
+        section {
+            padding: 4rem 2rem;
+        }
+
+        section h2 {
+            font-size: 2.5rem;
+            margin-bottom: 2rem;
+            text-align: center;
+            color: #000;
+            text-transform: uppercase;
+            letter-spacing: 1px;
+        }
+
+        /* Archetype Section */
+        .archetype {
+            background-color: #f9f9f9;
+        }
+
+        .archetype-content {
+            display: grid;
+            grid-template-columns: 1fr 1fr;
+            gap: 3rem;
+            align-items: center;
+            max-width: 1200px;
+            margin: 0 auto;
+        }
+
+        .archetype-text h3 {
+            font-size: 1.8rem;
+            margin-bottom: 1rem;
+            color: #ffd700;
+        }
+
+        .archetype-text p {
+            font-size: 1.1rem;
+            margin-bottom: 1rem;
+            line-height: 1.8;
+        }
+
+        .archetype-features {
+            list-style: none;
+            margin-top: 1.5rem;
+        }
+
+        .archetype-features li {
+            padding: 0.8rem 0;
+            padding-left: 2rem;
+            position: relative;
+            font-size: 1rem;
+        }
+
+        .archetype-features li:before {
+            content: "✓";
+            position: absolute;
+            left: 0;
+            color: #ffd700;
+            font-weight: bold;
+        }
+
+        .archetype-visual {
+            background: linear-gradient(135deg, #ffd700 0%, #ffed4e 100%);
+            padding: 2rem;
+            border-radius: 10px;
+            text-align: center;
+            min-height: 300px;
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+        }
+
+        .archetype-visual h3 {
+            font-size: 2rem;
+            color: #000;
+            text-transform: uppercase;
+            margin-bottom: 1rem;
+        }
+
+        .archetype-visual p {
+            color: #000;
+            font-size: 1.2rem;
+            font-weight: 500;
+        }
+
+        /* Competitors Section */
+        .competitors {
+            background-color: #fff;
+        }
+
+        .competitors-grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+            gap: 2rem;
+            max-width: 1200px;
+            margin: 0 auto;
+        }
+
+        .competitor-card {
+            background: linear-gradient(135deg, #f5f5f5 0%, #e8e8e8 100%);
+            padding: 2rem;
+            border-radius: 8px;
+            text-align: center;
+            transition: transform 0.3s ease, box-shadow 0.3s ease;
+            border-top: 4px solid #ffd700;
+        }
+
+        .competitor-card:hover {
+            transform: translateY(-5px);
+            box-shadow: 0 10px 25px rgba(0,0,0,0.15);
+        }
+
+        .competitor-card h3 {
+            font-size: 1.8rem;
+            margin-bottom: 1rem;
+            color: #000;
+            text-transform: uppercase;
+        }
+
+        .competitor-card p {
+            color: #666;
+            font-size: 1rem;
+            line-height: 1.6;
+        }
+
+        /* Mission Section */
+        .mission {
+            background: linear-gradient(135deg, #1a1a1a 0%, #333 100%);
+            color: #fff;
+        }
+
+        .mission-content {
+            display: grid;
+            grid-template-columns: 1fr 1fr;
+            gap: 3rem;
+            align-items: center;
+            max-width: 1200px;
+            margin: 0 auto;
+        }
+
+        .mission-text h3 {
+            font-size: 2rem;
+            margin-bottom: 1.5rem;
+            color: #ffd700;
+        }
+
+        .mission-text p {
+            font-size: 1.1rem;
+            margin-bottom: 1rem;
+            line-height: 1.8;
+        }
+
+        .mission-values {
+            display: grid;
+            grid-template-columns: 1fr 1fr;
+            gap: 2rem;
+        }
+
+        .value-item {
+            background: rgba(255, 215, 0, 0.1);
+            padding: 1.5rem;
+            border-radius: 8px;
+            border-left: 4px solid #ffd700;
+        }
+
+        .value-item h4 {
+            color: #ffd700;
+            margin-bottom: 0.5rem;
+            font-size: 1.2rem;
+        }
+
+        .value-item p {
+            color: #ddd;
+            font-size: 0.95rem;
+        }
+
+        /* Footer */
+        footer {
+            background-color: #000;
+            color: #fff;
+            text-align: center;
+            padding: 2rem;
+        }
+
+        footer p {
+            margin-bottom: 0.5rem;
+        }
+
+        /* Responsive Design */
+        @media (max-width: 768px) {
+            nav ul {
+                flex-direction: column;
+                gap: 0.5rem;
+                align-items: center;
+            }
+
+            .hero h1 {
+                font-size: 2.5rem;
+            }
+
+            .hero p {
+                font-size: 1.1rem;
+            }
+
+            section h2 {
+                font-size: 2rem;
+            }
+
+            .archetype-content {
+                grid-template-columns: 1fr;
+                gap: 2rem;
+            }
+
+            .mission-content {
+                grid-template-columns: 1fr;
+                gap: 2rem;
+            }
+
+            .competitors-grid {
+                grid-template-columns: 1fr;
+            }
+
+            .mission-values {
+                grid-template-columns: 1fr;
+            }
+
+            .hero {
+                padding: 4rem 1rem;
+                min-height: 350px;
+            }
+
+            section {
+                padding: 2rem 1rem;
+            }
+        }
+
+        @media (max-width: 480px) {
+            nav {
+                padding: 0.5rem 1rem;
+            }
+
+            nav ul {
+                gap: 0.3rem;
+            }
+
+            .hero h1 {
+                font-size: 2rem;
+            }
+
+            .hero p {
+                font-size: 1rem;
+            }
+
+            .cta-button {
+                padding: 0.8rem 2rem;
+                font-size: 1rem;
+            }
+
+            section h2 {
+                font-size: 1.7rem;
+            }
+
+            .archetype-text h3 {
+                font-size: 1.5rem;
+            }
+
+            .competitor-card h3 {
+                font-size: 1.5rem;
+            }
+
+            .mission-text h3 {
+                font-size: 1.5rem;
+            }
+        }
+    </style>
+</head>
+<body>
+    <!-- Navigation -->
+    <nav>
+        <ul>
+            <li><a href="#home">Home</a></li>
+            <li><a href="#archetype">Archetype</a></li>
+            <li><a href="#competitors">Competitors</a></li>
+            <li><a href="#mission">Our Mission</a></li>
+        </ul>
+    </nav>
+
+    <!-- Hero Section -->
+    <section id="home" class="hero">
+        <h1>Champion</h1>
+        <p>Empowering athletes through innovative performance wear. We believe every athlete deserves equipment that inspires greatness.</p>
+        <button class="cta-button">Learn More</button>
+    </section>
+
+    <!-- Archetype Section -->
+    <section id="archetype" class="archetype">
+        <h2>Our Archetype: The Champion</h2>
+        <div class="archetype-content">
+            <div class="archetype-text">
+                <h3>The Champion Archetype</h3>
+                <p>We've chosen the Champion archetype as the foundation of our brand identity. This archetype embodies victory, excellence, and the relentless pursuit of improvement. It represents the warrior spirit within every athlete.</p>
+                <p>Champions inspire others through their determination and commitment to excellence. Our brand channels this energy into every product we design, ensuring that athletes feel empowered to reach their full potential.</p>
+                <ul class="archetype-features">
+                    <li>Drives achievement and peak performance</li>
+                    <li>Inspires courage and determination</li>
+                    <li>Embodies excellence and competitive spirit</li>
+                    <li>Motivates continuous improvement</li>
+                    <li>Celebrates athletic victories</li>
+                </ul>
+            </div>
+            <div class="archetype-visual">
+                <h3>🏆</h3>
+                <p>Empowering Athletes to Achieve Greatness</p>
+            </div>
+        </div>
+    </section>
+
+    <!-- Competitors Section -->
+    <section id="competitors" class="competitors">
+        <h2>Our Competition</h2>
+        <div class="competitors-grid">
+            <div class="competitor-card">
+                <h3>Nike</h3>
+                <p>A global leader in athletic wear known for innovation and star athlete partnerships. Their "Just Do It" message resonates with competitive athletes worldwide.</p>
+            </div>
+            <div class="competitor-card">
+                <h3>Adidas</h3>
+                <p>Combines heritage and technology with the "Impossible is Nothing" philosophy. Strong in both performance and lifestyle segments with diverse product lines.</p>
+            </div>
+            <div class="competitor-card">
+                <h3>Puma</h3>
+                <p>Focuses on agility and speed with bold design choices. Known for collaborations with emerging athletes and trend-setting fashion-forward approach.</p>
+            </div>
+        </div>
+    </section>
+
+    <!-- Mission Section -->
+    <section id="mission" class="mission">
+        <h2>Our Mission</h2>
+        <div class="mission-content">
+            <div class="mission-text">
+                <h3>Champion Mindset</h3>
+                <p>We are dedicated to creating performance wear that inspires athletes at every level. From aspiring competitors to seasoned professionals, we believe everyone has the champion within them.</p>
+                <p>Our products are engineered with cutting-edge technology and designed with the athlete in mind. We're not just making clothes – we're creating the foundation for athletic success.</p>
+            </div>
+            <div class="mission-values">
+                <div class="value-item">
+                    <h4>Performance</h4>
+                    <p>Engineering gear that enhances athletic capability and endurance.</p>
+                </div>
+                <div class="value-item">
+                    <h4>Empowerment</h4>
+                    <p>Inspiring athletes to believe in themselves and push beyond limits.</p>
+                </div>
+                <div class="value-item">
+                    <h4>Innovation</h4>
+                    <p>Continuously improving through research, development, and athlete feedback.</p>
+                </div>
+                <div class="value-item">
+                    <h4>Integrity</h4>
+                    <p>Building trust through quality, transparency, and ethical practices.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer>
+        <p>&copy; 2025 Champion Brand. Empowering Athletes Worldwide.</p>
+        <p>Competing Against: Nike, Adidas, and Puma</p>
+    </footer>
+</body>
+</html>
