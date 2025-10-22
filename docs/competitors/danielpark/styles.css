@@ -1,0 +1,67 @@
+:root{
+  --accent:#ff3b30; /* bold accent similar to energetic red */
+  --bg:#fff;
+  --muted:#666;
+  --maxw:1100px;
+  --gap:20px;
+}
+*{box-sizing:border-box}
+body{
+  font-family: system-ui, -apple-system, "Segoe UI", Roboto, "Helvetica Neue", Arial;
+  margin:0;
+  color:#111;
+  background:var(--bg);
+  line-height:1.5;
+}
+.site-header{
+  border-bottom:1px solid #eee;
+  background:#fafafa;
+}
+.header-inner{
+  max-width:var(--maxw);
+  margin:0 auto;
+  padding:18px;
+  display:flex;
+  gap:12px;
+  align-items:center;
+}
+.logo{height:48px;width:auto}
+.site-header h1{font-size:1.1rem;margin:0;color:#111}
+.md-link{margin-left:auto;color:var(--muted);text-decoration:none;font-size:0.9rem}
+
+.layout{
+  max-width:var(--maxw);
+  margin:18px auto;
+  display:grid;
+  grid-template-columns:250px 1fr;
+  gap:var(--gap);
+  padding:0 18px 60px;
+}
+
+/* TOC */
+.toc{
+  position:sticky;
+  top:16px;
+  height:calc(100vh - 32px);
+  overflow:auto;
+  padding:14px;
+  border-right:1px solid #f0f0f0;
+}
+.toc h2{margin-top:0;font-size:1rem}
+.toc ul{padding-left:1rem;margin:0}
+.toc a{display:inline-block;color:#111;text-decoration:none;padding:6px 0}
+.toc a:hover{color:var(--accent)}
+
+/* Main content */
+.content{padding:6px 18px}
+.content section{margin-bottom:28px}
+.content h2{border-left:6px solid var(--accent);padding-left:10px;margin:0 0 10px 0;font-size:1.1rem}
+.content h3{margin:8px 0 6px}
+.page-footer{border-top:1px solid #eee;padding-top:12px;color:var(--muted);font-size:0.9rem}
+
+/* Responsive */
+@media (max-width:900px){
+  .layout{grid-template-columns:1fr; padding-bottom:60px}
+  .toc{position:relative;height:auto;border-right:0;border-bottom:1px solid #f0f0f0;margin-bottom:12px}
+  .md-link{display:none}
+}
