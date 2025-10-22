@@ -1,0 +1,216 @@
+<!doctype html>
+<html lang="en">
+<head>
+	<meta charset="utf-8" />
+	<meta name="viewport" content="width=device-width,initial-scale=1" />
+	<title>PUMA — Competitor Analysis</title>
+	<link rel="stylesheet" href="styles.css">
+	<style>
+		/* Inline page-specific styles to give a Puma-like layout without editing styles.css */
+		.hero{
+			display:flex;
+			align-items:center;
+			justify-content:center;
+			min-height:56vh;
+			color:#fff;
+			text-align:center;
+			/* removed second reference to Puma.png - using gradient + subtle pattern instead */
+			background:
+				linear-gradient(180deg, rgba(0,0,0,.45), rgba(0,0,0,.55)),
+				repeating-radial-gradient(circle at 10% 10%, rgba(255,255,255,0.02), rgba(255,255,255,0.02) 8px, transparent 8px, transparent 24px);
+			gap:20px;
+			padding:48px 18px;
+		}
+		.hero .inner{max-width:1000px;}
+		.hero h2{font-size:2.1rem;margin:0 0 8px;letter-spacing:0.02em}
+		.hero p{margin:0 0 16px;color:rgba(255,255,255,0.9)}
+		.cta{display:inline-block;background:#111;color:#fff;padding:12px 18px;text-decoration:none;border-radius:6px;margin:6px 8px;font-weight:600}
+		.cta.ghost{background:transparent;border:2px solid rgba(255,255,255,0.9)}
+		.topnav{
+			display:flex;align-items:center;gap:18px;padding:12px 18px;border-bottom:1px solid #eee;background:#fff;
+			position:sticky;top:0;z-index:40;
+		}
+		.topnav .logo{height:34px}
+		.topnav nav{margin-left:18px}
+		.topnav a{margin:0 8px;text-decoration:none;color:#111;font-weight:600}
+		.collections{display:grid;grid-template-columns:repeat(auto-fit,minmax(220px,1fr));gap:18px;margin:28px 0}
+		.card{background:#fff;border-radius:6px;box-shadow:0 6px 18px rgba(0,0,0,0.06);overflow:hidden}
+		.card .media{height:160px;background:#f5f5f5;background-size:cover;background-position:center}
+		.card .body{padding:12px}
+		.badge{display:inline-block;background:var(--accent);color:#fff;padding:6px 8px;border-radius:16px;font-size:0.8rem;font-weight:700}
+		.authority{display:flex;gap:18px;align-items:center;justify-content:space-between;padding:18px;border-top:1px solid #f0f0f0;border-bottom:1px solid #f0f0f0;margin:18px 0}
+		.authority .list{display:flex;gap:14px;align-items:center}
+		.newsletter{display:flex;gap:8px;align-items:center;margin:18px 0}
+		.newsletter input{flex:1;padding:10px;border:1px solid #ddd;border-radius:6px}
+		@media (max-width:720px){ .hero h2{font-size:1.6rem} .authority{flex-direction:column;align-items:flex-start} }
+	</style>
+</head>
+<body>
+	<!-- top navigation (Puma-like) -->
+	<header class="topnav" role="banner">
+		<div style="display:flex;align-items:center;">
+			<img src="Puma.png" alt="PUMA logo" class="logo" onerror="this.style.display='none'">
+			<nav aria-label="Primary" style="display:flex;">
+				<a href="#basic-info">Home</a>
+				<a href="#archetype">Collections</a>
+				<a href="#persuasion">Drops</a>
+				<a href="#funnel">Stories</a>
+			</nav>
+		</div>
+		<div style="margin-left:auto">
+			<a class="cta" href="#takeaways">Shop Now</a>
+			<a class="cta ghost" href="puma.md" target="_blank" rel="noopener">View Research</a>
+		</div>
+	</header>
+
+	<!-- hero (uses gradient/pattern now; logo in topnav is the single image) -->
+	<section class="hero" role="region" aria-label="Hero">
+		<div class="inner">
+			<h2>Forever Faster</h2>
+			<p>Performance-first footwear and apparel — action-driven design meets cultural collaborations.</p>
+			<div>
+				<a class="cta" href="#strengths">Shop Performance</a>
+				<a class="cta ghost" href="#takeaways">Explore Collaborations</a>
+			</div>
+		</div>
+	</section>
+
+	<main class="content" role="main">
+		<!-- Quick summary banner -->
+		<section style="padding:18px 0;">
+			<p style="margin:0; color:var(--muted);">Target audience: Athletes, fitness enthusiasts, and style-conscious consumers (age ~13–45). Analysis highlights performance positioning plus creative drops.</p>
+		</section>
+
+		<!-- Collections grid (based on puma.md content) -->
+		<section id="collections" aria-label="Featured collections">
+			<h2 style="border-left:6px solid var(--accent);padding-left:10px;">Featured Collections</h2>
+			<div class="collections">
+				<div class="card">
+					<!-- replaced image background with neutral gradient placeholder -->
+					<div class="media" style="background:linear-gradient(135deg,#f6f6f6,#e9e9e9);display:flex;align-items:center;justify-content:center;color:#aaa;font-weight:700">Performance</div>
+					<div class="body">
+						<span class="badge">Performance</span>
+						<h3 style="margin:10px 0 6px">Running & Performance</h3>
+						<p style="margin:0;color:var(--muted)">Lightweight, breathable tech for speed and endurance.</p>
+					</div>
+				</div>
+
+				<div class="card">
+					<div class="media" style="background:linear-gradient(135deg,#faf4ef,#efe9e3);display:flex;align-items:center;justify-content:center;color:#b66;font-weight:700">Lifestyle</div>
+					<div class="body">
+						<span class="badge">Lifestyle</span>
+						<h3 style="margin:10px 0 6px">Collaborations & Lifestyle</h3>
+						<p style="margin:0;color:var(--muted)">Designer drops and culture-driven releases that boost desirability.</p>
+					</div>
+				</div>
+
+				<div class="card">
+					<div class="media" style="background:linear-gradient(135deg,#f7f7f7,#ececec);display:flex;align-items:center;justify-content:center;color:#999;font-weight:700">Essentials</div>
+					<div class="body">
+						<span class="badge">Essentials</span>
+						<h3 style="margin:10px 0 6px">Everyday Apparel</h3>
+						<p style="margin:0;color:var(--muted)">Casual pieces that bridge sport and streetwear.</p>
+					</div>
+				</div>
+			</div>
+		</section>
+
+		<!-- Featured drop with scarcity (media uses gradient placeholder) -->
+		<section id="featured-drop" aria-label="Featured drop" style="margin-bottom:18px;">
+			<div class="card" style="display:flex;gap:0;align-items:stretch;overflow:hidden;">
+				<div class="media" style="width:42%;background:linear-gradient(135deg,#f0f0f0,#e2e2e2);min-height:220px;display:flex;align-items:center;justify-content:center;color:#999">Drop Image</div>
+				<div class="body" style="flex:1;">
+					<span class="badge">Limited</span>
+					<h3 style="margin:10px 0 8px">Collaboration Drop — Limited Release</h3>
+					<p style="color:var(--muted)">Exclusive drop combining performance tech with designer aesthetics. Low stock — act fast.</p>
+					<div style="margin-top:12px;">
+						<a class="cta" href="#persuasion">Shop Drop</a>
+						<a class="cta ghost" href="#research">Read Story</a>
+					</div>
+				</div>
+			</div>
+		</section>
+
+		<!-- Authority / endorsements: replaced <img> placeholders with styled divs (no Puma.png) -->
+		<section class="authority" aria-label="Athlete endorsements">
+			<div>
+				<h3 style="margin:0 0 6px">Authority & Trust</h3>
+				<p style="margin:0;color:var(--muted)">Athlete endorsements and product tech claims strengthen credibility for performance buyers.</p>
+			</div>
+			<div class="list" aria-hidden="true">
+				<!-- placeholders instead of repeated Puma.png -->
+				<div style="width:36px;height:36px;background:linear-gradient(135deg,#fff4f4,#ffdede);border-radius:4px;box-shadow:0 2px 6px rgba(0,0,0,0.06)"></div>
+				<div style="width:36px;height:36px;background:linear-gradient(135deg,#f4fff7,#dfffe6);border-radius:4px;box-shadow:0 2px 6px rgba(0,0,0,0.06)"></div>
+				<div style="width:36px;height:36px;background:linear-gradient(135deg,#f4f8ff,#dfeaff);border-radius:4px;box-shadow:0 2px 6px rgba(0,0,0,0.06)"></div>
+			</div>
+		</section>
+
+		<!-- Product highlights (converted from analysis content) -->
+		<section id="products">
+			<h2 style="border-left:6px solid var(--accent);padding-left:10px;">Product Highlights</h2>
+			<div class="collections">
+				<div class="card">
+					<div class="media" style="background:linear-gradient(135deg,#f6f6f6,#eaeaea);display:flex;align-items:center;justify-content:center;color:#aaa;font-weight:700">Tech Runner</div>
+					<div class="body">
+						<h4 style="margin:0 0 6px">Tech Runner Pro</h4>
+						<p style="margin:0;color:var(--muted)">Engineered for speed — responsive midsole and breathable upper.</p>
+						<div style="margin-top:12px;"><a class="cta" href="#funnel">Add to Bag</a></div>
+					</div>
+				</div>
+
+				<div class="card">
+					<div class="media" style="background:linear-gradient(135deg,#fff9f2,#fff0e6);display:flex;align-items:center;justify-content:center;color:#b66;font-weight:700">Collab Sneaker</div>
+					<div class="body">
+						<h4 style="margin:0 0 6px">Designer Collab Sneaker</h4>
+						<p style="margin:0;color:var(--muted)">Limited run — stylistic statement with premium materials.</p>
+						<div style="margin-top:12px;"><a class="cta" href="#persuasion">Add to Bag</a></div>
+					</div>
+				</div>
+			</div>
+		</section>
+
+		<!-- Newsletter / CTA -->
+		<section style="margin:22px 0;padding:18px;border-radius:8px;background:#fafafa;display:flex;align-items:center;gap:12px;flex-wrap:wrap;">
+			<div style="flex:1;min-width:220px;">
+				<h3 style="margin:0 0 6px">Stay in the loop</h3>
+				<p style="margin:0;color:var(--muted)">Sign up for drops, product news, and exclusive offers.</p>
+			</div>
+			<form class="newsletter" onsubmit="alert('Demo only: signup simulated'); return false;">
+				<input type="email" placeholder="Email address" required>
+				<button class="cta" type="submit">Sign up</button>
+			</form>
+		</section>
+
+		<!-- keep the research-based content (preserves puma.md insights) -->
+		<section id="insights">
+			<h2 style="border-left:6px solid var(--accent);padding-left:10px;">Insights from Analysis</h2>
+			<!-- ...existing content from puma.md summarized below... -->
+			<p><strong>Archetype:</strong> Hero (+ Creator). <strong>Most effective persuasion:</strong> Authority with social proof. <strong>Funnel score:</strong> 8/10 — great awareness and action, opportunities in personalization and retention.</p>
+			<p style="margin-top:8px;color:var(--muted)">For full analysis, open the original markdown: <a href="puma.md" target="_blank" rel="noopener">puma.md</a></p>
+		</section>
+
+		<footer class="page-footer" style="margin-top:28px;">
+			<p style="margin:0;color:var(--muted)">Internal competitor analysis — styled as a Puma-inspired landing page. Place Puma.png in this folder to show visuals.</p>
+		</footer>
+	</main>
+
+	<script>
+		// smooth scrolling from original page (keeps behavior)
+		(function(){
+			if (!('querySelector' in document)) return;
+			document.querySelectorAll('a[href^="#"]').forEach(function(a){
+				a.addEventListener('click', function(e){
+					var href = this.getAttribute('href');
+					if (!href || href === '#') return;
+					if (href.charAt(0) === '#') {
+						e.preventDefault();
+						var id = href.slice(1);
+						var el = document.getElementById(id);
+						if (el) el.scrollIntoView({behavior:'smooth', block:'start'});
+					}
+				});
+			});
+		})();
+	</script>
+</body>
+</html>
